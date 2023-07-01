@@ -1,10 +1,10 @@
 import './App.css';
+import {MyStepper} from "./components/stepper/stepper";
 
 function App () {
-
     return (
         <div className='App'>
-            <p>project-boot-ts</p>
+           <MyStepper/>
         </div>
     );
 }
